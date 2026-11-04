@@ -1,0 +1,16 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# Compiler / IDE artifacts
+*.o
+*.pdb
+*.ilk
+*.user
+.vs/
+.idea/
+.DS_Store
+
+# Temporary captures
+screenshot_tmp*
