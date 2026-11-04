@@ -249,6 +249,7 @@ OpenGL 3.3.0 - Build 31.0.101.2112 | Intel(R) Iris(R) Plus Graphics 655 | Intel
 - 滚轮向上 3 格后，窗口标题 FOV 从 `45` 变为 `42`。
 - 按住 `W` 2 秒的前后客户区截图显示摄像机明显前移（由全景变为贴近圆环的特写）。
 - 水平移动鼠标后客户区截图显示视角水平旋转。
+- 无参数启动时窗口标题为 `gl_mini_renderer | 60.0 FPS | shadows ON | wireframe OFF | post Normal | FOV 45`，发送 `ESC` 后进程正常退出。
 - 关闭 VSync 时窗口标题实测约 559–605 FPS；正常启动默认开启 VSync。
 
 ### 已知未验证项
